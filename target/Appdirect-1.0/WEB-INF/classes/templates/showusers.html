@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>PIPES for AppDirect</title>
+</head>
+
+<body>
+	<table>
+		<thead>
+		<tr>
+			<th>Email   </th>
+			<th>Company Name  </th>
+			<th>First Name  </th>
+			<th>Edition Code  </th>
+			<th>Creator</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr data-th-each="user : ${users}">
+				<td th:text="${user.email}">1</td>
+				<td th:text="${user.companyName}">Company</td>
+				<td th:text="${user.firstName}">Text...</td>
+				<td th:text="${user.editionCode}">Text ...</td>
+				<td th:text="${user.creator}">Text ...</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

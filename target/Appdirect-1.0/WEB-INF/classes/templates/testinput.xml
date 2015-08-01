@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:atom="http://www.w3.org/2005/Atom">
+	<type>SUBSCRIPTION_ORDER</type>
+	<marketplace>
+		<baseUrl>https://www.appdirect.com</baseUrl>
+		<partner>APPDIRECT</partner>
+	</marketplace>
+	<flag>DEVELOPMENT</flag>
+	<creator>
+		<email>a.ameyjain@gmail.com</email>
+		<firstName>Amey</firstName>
+		<language>en</language>
+		<lastName>Jain</lastName>
+		<openId>https://www.appdirect.com/openid/id/db517440-7087-47a4-8ee7-eb03a0d8d953</openId>
+		<uuid>db517440-7087-47a4-8ee7-eb03a0d8d953</uuid>
+	</creator>
+	<payload>
+		<company>
+			<country>US</country>
+			<name>Carnegie Mellon university</name>
+			<phoneNumber>4125871811</phoneNumber>
+			<uuid>2c959fba-4ba1-475d-8275-f761bd404870</uuid>
+			<website>www.amey.xyz</website>
+		</company>
+		<configuration />
+		<order>
+			<editionCode>FREE</editionCode>
+			<pricingDuration>MONTHLY</pricingDuration>
+		</order>
+	</payload>
+</event>
