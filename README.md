@@ -13,6 +13,7 @@ This project uses a lightweight ORM called genericDAO whose jar is not published
 You can download the jar from here https://drive.google.com/open?id=0B8H2j1plkjhFU2lNMkJIVnN1YnM
 
 This is a spring boot project, once the application is deployed on a platform use its url to add in appdirect integration endpoints
+
  subscription : www.webaddress/subs?url={event} 
  
  unsubscribe: http://webaddress/cancel?url={eventUrl}
