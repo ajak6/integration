@@ -22,27 +22,16 @@
 		</buildCommand>
 		<buildCommand>
 			<name>org.springframework.ide.eclipse.core.springbuilder</name>
-<<<<<<< HEAD
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.m2e.core.maven2Builder</name>
-=======
->>>>>>> origin/master
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.wst.validation.validationbuilder</name>
-<<<<<<< HEAD
-=======
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.m2e.core.maven2Builder</name>
->>>>>>> origin/master
 			<arguments>
 			</arguments>
 		</buildCommand>
