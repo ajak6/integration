@@ -18,6 +18,7 @@ public class DataBaseConfig {
 		private String password;
 
 		@Bean
+		//password changed
 		public ConnectionPool connection() {
 			System.out.println("creating database connectio ");
 			return new ConnectionPool(jdbcDriverName, jdbcURL, user, password);
